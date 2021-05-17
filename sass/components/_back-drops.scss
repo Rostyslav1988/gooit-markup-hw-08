@@ -1,3 +1,10 @@
+@media screen and(min-width:280px){
+    
+    .backdrop{
+        min-width: 480px
+    }
+    }
+
 .backdrop {
     position: fixed;
     width: 100vw;
@@ -25,6 +32,7 @@
     align-items: center;
     transition: 250ms;
 }
+
 .modal{
 
         position: absolute;

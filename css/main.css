@@ -2099,6 +2099,12 @@ header {
   overflow: hidden;
 }
 
+@media screen and (min-width: 280px) {
+  .backdrop {
+    min-width: 480px;
+  }
+}
+
 .backdrop {
   position: fixed;
   width: 100vw;
