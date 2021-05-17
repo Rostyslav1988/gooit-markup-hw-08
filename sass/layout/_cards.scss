@@ -1,3 +1,6 @@
+.box-shadow img{
+    width: 450px;
+}
 .padding-for-p{
     padding-bottom: 0px;
 
@@ -38,10 +41,7 @@
 .menu2{
     margin-top: 15px;
 }
-    .over-blue img{
-        width: 450px;
-        height: 294px;
-    }
+
     .wid {
         justify-content: center;
         display: flex;
@@ -115,6 +115,7 @@
     
     .bm {
         border-top: 1px solid var(--solid-color);
+        min-width: 480px;
     }
     
     .producta-padding {

@@ -2478,6 +2478,10 @@ header {
   }
 }
 
+.box-shadow img {
+  width: 450px;
+}
+
 .padding-for-p {
   padding-bottom: 0px;
 }
@@ -2519,11 +2523,6 @@ header {
 
 .menu2 {
   margin-top: 15px;
-}
-
-.over-blue img {
-  width: 450px;
-  height: 294px;
 }
 
 .wid {
@@ -2596,6 +2595,7 @@ a {
 
 .bm {
   border-top: 1px solid var(--solid-color);
+  min-width: 480px;
 }
 
 .producta-padding {
