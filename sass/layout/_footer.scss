@@ -1,0 +1,510 @@
+.footer-form{
+    margin-top: 60px;
+}
+.footer-padding{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    flex-direction: column;
+}
+.footer {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #2F303A;
+padding-top: 60px;
+padding-bottom: 60px;
+
+}
+.foter__section {
+display: flex;
+margin: 0 auto;
+width: 1200px;
+flex-direction: column;
+
+}
+.logo-footer {
+font-family: "Raleway";
+@include font(700, 26px);
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--background-color);
+margin-bottom: 20px;
+}
+.address {
+
+margin-top: 20px;
+}
+.adress-footer {
+@include font(400, 14px);
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--white);
+margin-bottom: 9px;
+}
+.address__item {
+padding-left: 0;
+margin-top: 9px;
+margin-bottom: 0;
+}
+.address__list {
+margin-bottom: 9px;
+}
+.address__link-amail {
+@include font(400, 14px);
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+
+}
+.address__link-tel {
+@include font(400, 14px);
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-welcom {
+margin-left: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 60px;
+}
+.welcom {
+@include font(700, 14px);
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--white);
+margin-bottom: 20px;
+
+text-align: center;
+}
+.welcom__item {
+display: flex;
+flex-wrap: wrap;
+margin-right: -10px;
+align-items: center;
+padding: 0;
+
+width: 217px;
+}
+.welcom__item li {
+flex-basis: calc((100% - 40px) / 4);
+margin-right: 10px;
+}
+
+.footer-form__name {
+@include font(700, 14px);
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--white);
+margin-bottom: 20px;
+text-align: center;
+}
+.form-input-footer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.footer-form-email {
+width: 450px;
+height: 50px;
+background: var(--background-color);
+outline: none;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+color: var(--white);
+padding-left: 16px;
+padding: 15px;
+}
+.footer-form-button {
+background: var(--focus-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width: 200px;
+height: 50px;
+outline: none;
+border: none;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--white);
+margin-left: 0px;
+padding-left: 29px;
+cursor: pointer;
+justify-content: center;
+margin-top: 20px;
+}
+.airplane {
+padding-left: 10px;
+width: 30px;
+height: 30px;
+}
+.web-logo{
+color: #2196F3;
+}
+.welcom__link {
+fill: var(--white);
+background: rgba(255, 255, 255, 0.1);
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%; 
+transition: 0.5s;
+
+&:hover,
+&:focus {
+    background: var(--focus-color);
+
+}
+}
+
+
+@media screen and (min-width:768px) {
+    .footer-form{
+        margin-top: 60px;
+    }
+    .footer-padding{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        flex-direction: row;
+    }
+    .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.foter__section {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    flex-direction: column;
+
+}
+.logo-footer {
+    font-family: "Raleway";
+    @include font(700, 26px);
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--background-color);
+    margin-bottom: 20px;
+}
+.address {
+
+    margin-top: 20px;
+}
+.adress-footer {
+    @include font(400, 14px);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    margin-bottom: 9px;
+}
+.address__item {
+    padding-left: 0;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.address__list {
+    margin-bottom: 9px;
+}
+.address__link-amail {
+    @include font(400, 14px);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.address__link-tel {
+    @include font(400, 14px);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-welcom {
+margin-top: 0px;
+    margin-left: 125px
+}
+.welcom {
+    @include font(700, 14px);
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--white);
+margin-bottom: 20px;
+
+text-align: center;
+}
+.welcom__item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    align-items: center;
+    padding: 0;
+
+    width: 217px;
+}
+.welcom__item li {
+    flex-basis: calc((100% - 40px) / 4);
+    margin-right: 10px;
+}
+
+.footer-form__name {
+    @include font(700, 14px);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-input-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-form-email {
+    width: 450px;
+    height: 50px;
+    background: var(--background-color);
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--white);
+    padding-left: 16px;
+    padding: 15px;
+}
+.footer-form-button {
+    background: var(--focus-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    margin-left: 0px;
+    padding-left: 29px;
+    cursor: pointer;
+
+    margin-top: 20px;
+}
+.airplane {
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+.web-logo{
+color: #2196F3;
+}
+.welcom__link {
+    fill: var(--white);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%; 
+    transition: 0.5s;
+    
+    &:hover,
+    &:focus {
+        background: var(--focus-color);
+    
+    }
+    }
+
+}
+@media screen  and (min-width:1200px) {
+    .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.foter__section {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    flex-direction: row;
+
+}
+.logo-footer {
+    font-family: "Raleway";
+    @include font(700, 26px);
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--background-color);
+    margin-bottom: 20px;
+}
+.address {
+
+    margin-top: 20px;
+}
+.adress-footer {
+    @include font(400, 14px);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    margin-bottom: 9px;
+}
+.address__item {
+    padding-left: 0;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.address__list {
+    margin-bottom: 9px;
+}
+.address__link-amail {
+    @include font(400, 14px);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.address__link-tel {
+    @include font(400, 14px);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-welcom {
+    // width: calc((50% - 45px) / 2);
+    margin-left: 67px;
+    display: inline;
+}
+.welcom {
+    @include font(700, 14px);
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--white);
+margin-bottom: 20px;
+
+text-align: start;
+}
+.welcom__item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    align-items: center;
+    padding: 0;
+
+    width: 217px;
+}
+.welcom__item li {
+    flex-basis: calc((100% - 40px) / 4);
+    margin-right: 10px;
+}
+.footer-form {
+flex-basis: calc(50% - 15px);
+margin-left: 110px;
+}
+.footer-form__name {
+    @include font(700, 14px);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 20px;
+
+    text-align: start
+    
+}
+.footer-form{
+    margin-top: 0px;
+}
+.form-input-footer {
+    display: flex;
+    flex-direction: row;
+}
+.footer-form-email {
+    width: 358px;
+    height: 50px;
+    background: var(--background-color);
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--white);
+    padding-left: 16px;
+    padding: 15px;
+}
+.footer-form-button {
+    background: var(--focus-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    margin-left: 12px;
+    padding-left: 29px;
+    cursor: pointer;
+
+    margin-top: 0px;
+}
+.airplane {
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+.web-logo{
+color: #2196F3;
+}
+.welcom__link {
+    fill: var(--white);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%; 
+    transition: 0.5s;
+    
+    &:hover,
+    &:focus {
+        background: var(--focus-color);
+    
+    }
+    }
+    .footer-padding{
+        text-align: start;
+    }
+}

@@ -1,0 +1,34 @@
+:root {
+    --color-text: #212121;
+    --color-second-text: #757575;
+    --focus-color: #2196F3;
+    --secondary-font: "Raleway", sans-serif;
+    --colo-black: #000000;
+    --background-color: #2F303A;
+    --white: #FFFFFF;
+    --background-white: #F5F4FA;
+    --solid-color: #ECECEC;
+
+    --black: #000000;
+    --back-ground: #C4C4C4;
+    --fill: #AFB1B8;
+}
+
+
+  .padding-for-section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    width: 100%;
+    }
+@media screen and (min-width:1200px) {
+  .padding-for-section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    width: 100%;
+    }  
+}
+
+@mixin font($fw: 700, $fs: 14px) {
+    font-weight: $fw;
+    font-size: $fs;
+}
