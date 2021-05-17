@@ -693,7 +693,7 @@ header {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/icons2/main-mobil/headerimg.png);
-  max-width: 480px;
+  min-width: 480px;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -1134,10 +1134,6 @@ header {
   background-color: var(--background-white);
 }
 
-.our-comand-container {
-  width: calc((50% - 45px) / 2);
-}
-
 .our-comand__list {
   display: flex;
   padding-left: 0;
@@ -1204,7 +1200,7 @@ header {
 .our-comand-section {
   padding-bottom: 60px;
   padding-top: 60px;
-  width: 100%;
+  min-width: 480px;
 }
 
 .social {
@@ -1222,7 +1218,7 @@ header {
     background-color: var(--background-white);
   }
   .our-comand-container {
-    width: calc((50% - 45px) / 2);
+    width: calc((0% - 0px) / 0);
   }
   .our-comand__list {
     display: flex;
@@ -1554,6 +1550,7 @@ header {
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
+  min-width: 480px;
 }
 
 .foter__section {
